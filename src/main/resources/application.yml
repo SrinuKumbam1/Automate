@@ -1,0 +1,34 @@
+#spring:
+#  servlet:
+#    multipart:
+#      max-file-size: 200MB
+#      enabled: 'true'
+#      max-request-size: 200MB
+#      file-size-threshold: 2KB
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#bookName:
+#  book2:
+#    sheetNames:
+#      headers: Form_OID, Field_OID
+#      nodeValue: Date Field NC Validation, Numeric NC Validation, Future Date Validation,
+#        Field Active Validation, Form Active Validation, Form Level Restriction Validation,
+#        Redirect Property Validation, Label Field Validation, Checkbox Format Validation
+#    nodeValue: Draft
+#  book1:
+#    sheet1:
+#      headers: Form OID,Study Draft - Form Name, Specification - Form Name, Form Name
+#        Validation Status, Study Draft - Help Text, Specification - Help Text, Helptext
+#        Validation Status, Study Draft - Signature Required, Specification - Signature
+#        Required, Signature Req. Validation Status
+#      nodeValue: Form
+#    nextSheets:
+#      headers: FORM_OID,FORM_OID Status,Field OID_Specification, Field OID_Draft,Field
+#        OID Validation status,Format Validation status,Required Field Validation status,
+#        Lower Range Validation status,Upper Range Validation status
+#    nodeValue: Result
+#draftDataKeys: DATE_TIME, TEXT_LONGTEXT, FUTURE_DATE, FIELD_ACTIVE, FORM_ACTIVE, FORM_RESTRICT,
+#  REDIRECT_PROPERTY, LABEL_FIELD, CHECKBOX
+#server:
+#  port: '8787'

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Automation</title>
+</head>
+<body>
+   <div>
+     <h3>Form & Field Validation</h3>
+     <form id="formValidation" name="formValidation" method="post" th:action=@{/formANDFieldValidation} encType="multipart/form-data">
+	       <label>Select First file</label>
+	       <input type="file" name="file1"  multiple required />
+	       <label>Select Second file</label>
+       <input type="file" name="file2" multiple required />
+       <button type="submit">Submit</button>
+     </form>
+   </div>
+   
+   <div>
+     <h3>Draft validations</h3>
+     <form id="draftValidation" name="draft" method="post" th:action=@{/draftValidation} encType="multipart/form-data">
+	       <label>Select First file</label>
+	       <input type="file" name="file1"  multiple required />
+       <button type="submit">Submit</button>
+     </form>
+   </div>
+</body>
+</html>
